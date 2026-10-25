@@ -69,3 +69,28 @@ body{background:var(--canvas);color:var(--ink)}
 .team-person h3{font:600 19px 'Manrope';letter-spacing:-.03em;margin:0 0 5px;color:#fff}
 .team-person p{font-size:13px;color:#b6c2db;margin:0}
 @media(max-width:800px){.team-grid{grid-template-columns:1fr;gap:22px}}
+
+/* Pricing */
+.pricing-section{padding:94px 0;background-color:#fbfbfd;background-image:radial-gradient(#d8deff 1px,transparent 1px);background-size:26px 26px}
+.pricing-wrap{width:min(1120px,calc(100% - 72px));margin:0 auto}
+.pricing-card{overflow:hidden;color:#fff;box-shadow:0 20px 60px rgba(31,43,134,.10)}
+.pricing-intro{padding:40px 6.5% 36px;background:#4848df}
+.pricing-intro h2{font:700 clamp(26px,3vw,34px)/1.15 'Manrope',sans-serif;letter-spacing:-.045em;color:#fff;margin:0 0 12px}
+.pricing-intro p{font:500 clamp(16px,2vw,22px)/1.4 'DM Sans',sans-serif;letter-spacing:-.025em;color:#edf0ff;margin:0}
+.pricing-offer{padding:37px 6.5% 39px}
+.project-offer{background:#3c43cb}
+.ongoing-offer{background:#3037a7}
+.offer-heading{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-bottom:14px}
+.offer-heading h3{font:700 21px/1.2 'Manrope',sans-serif;letter-spacing:-.035em;color:#fff;margin:0}
+.offer-price{display:flex;align-items:baseline;gap:5px;color:#c6cbff;margin:0;white-space:nowrap;font-size:14px}
+.offer-price strong{font:700 clamp(25px,3.2vw,30px)/1 'Manrope',sans-serif;letter-spacing:-.055em;color:#fff}
+.offer-description{max-width:730px;color:#e1e5ff;font-size:15px;line-height:1.55;margin:0 0 17px}
+.offer-features{list-style:none;display:grid;gap:10px;margin:0;padding:0}
+.offer-features li{display:flex;align-items:center;gap:9px;color:#fff;font-size:13px;line-height:1.35}
+.offer-features li:before{content:'✓';flex:0 0 18px;width:18px;height:18px;display:grid;place-items:center;border-radius:50%;background:#fff;color:#3940bd;font-size:12px;font-weight:700}
+@media(max-width:600px){.pricing-section{padding:64px 0;background-size:22px 22px}.pricing-wrap{width:calc(100% - 32px)}.pricing-intro{padding:29px 24px 27px}.pricing-intro p{font-size:17px}.desktop-break{display:none}.pricing-offer{padding:27px 24px 29px}.offer-heading{align-items:flex-start;flex-direction:column;gap:10px;margin-bottom:13px}.offer-heading h3{font-size:20px}.offer-price{font-size:13px}.offer-price strong{font-size:27px}.offer-description{font-size:14px;line-height:1.6}.offer-features{gap:11px}.offer-features li{font-size:12px}}
+#projects .section-head>div:first-child{align-self:start;background:#303ba9;padding:23px 27px}
+#projects .section-head>div:first-child .eyebrow{color:#dce4ff}
+#projects .section-head>div:first-child .eyebrow:before{background:#dce4ff}
+#projects .section-head h2,#projects .section-head h2 small{color:#fff}
+@media(max-width:800px){#projects .section-head>div:first-child{padding
