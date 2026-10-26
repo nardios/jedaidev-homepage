@@ -458,10 +458,10 @@ h1 span {
   display:grid;
   place-items:center
 }
-.project .eyebrow {
+.projects .eyebrow {
   color:#3659c3
 }
-.project .eyebrow:before {
+.projects .eyebrow:before {
   background:#3659c3
 }
 .browser-ui {
