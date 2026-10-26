@@ -1434,20 +1434,5 @@ body {
     font-size:12px
   }
 }
-#projects .section-head>div:first-child {
-  align-self:start;
-  background:#303ba9;
-  padding:23px 27px
+
 }
-#projects .section-head>div:first-child .eyebrow {
-  color:#dce4ff
-}
-#projects .section-head>div:first-child .eyebrow:before {
-  background:#dce4ff
-}
-#projects .section-head h2,#projects .section-head h2 small {
-  color:#fff
-}
-@media(max-width:800px) {
-  #projects .section-head>div:first-child {
-    padding
